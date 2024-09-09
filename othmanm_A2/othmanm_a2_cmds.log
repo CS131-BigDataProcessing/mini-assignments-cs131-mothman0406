@@ -1,0 +1,16 @@
+  270  vi goodluck.txt
+  271  grep -i '^Good luck, babe$' searchfile.txt\n
+  272  grep -i '^Good luck, babe$' goodluck.txt
+  273  grep '^Good luck, babe$' goodluck.txt
+  274  grep 'Good luck, babe' goodluck.txt
+  275  grep -P 'Good luck, babe' goodluck.txt
+  276  dc
+  277  wc goodluck.txt
+  278  wc goodluck.txt > othmanm_a2_counts.txt
+  279  vi othmanm_a2_counts.txt
+  280  vi othmanm_a2_counts.txt
+  281  wc goodluck.txt > othman-m_a2_counts.txt
+  282  vi othman-m_a2_counts.txt
+  283  vi othman-m_a2_counts.txt
+  284  vi othman-m_a2_counts.txt
+  285  history > othmanm_a2_counts.log
