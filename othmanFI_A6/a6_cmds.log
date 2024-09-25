@@ -1,0 +1,16 @@
+  721  vi airline_stats.csv
+  722  awk -F, '{print $4}' airline_stats.csv
+  723  awk -F, '$1>10{print $4}' airline_stats.csv
+  724  awk -F, '$1>10.6{print $4}' airline_stats.csv
+  725  awk -F, '{print $4}' airline_stats.csv
+  726  awk -F, '$1>10{print $4}' airline_stats.csv | sort
+  727  awk -v pv="$p_value" '{ if ($1 > pv) print $0 }'\nfilename
+  728  vi airline_stats.csv
+  729  awk -F, 'NR > 1 {print $4}' yourfile.csv\n
+  730  awk -F, 'NR > 1 {print $4}' airline_stats.csv
+  731  awk -F, 'NR > 1 && $1 > 10 {print $4}' airline_stats.csv | sort\n
+  732  awk -F, -v threshold=15 'NR > 1 && $1 > threshold {print $4}' airline_stats.csv\n
+  733  vi airline_inqiry.txt
+  734  vi airline_inqiry.txt
+  735  vi airline_inqiry.txt
+  736  vi airline_inqiry.txt
