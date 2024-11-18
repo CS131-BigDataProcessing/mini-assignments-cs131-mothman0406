@@ -1,0 +1,4 @@
+30 8 * * * df -h | mail -s "Disk Usage Report" user@example.com
+0 3 * * 0 /Users/mohammadothman/Documents/Github/mini-assignments-cs131-mothman0406/A9_cron/backup_script.sh
+0 2 * * * rm -rf /Users/mohammadothman/Documents/Github/mini-assignments-cs131-mothman0406/temp/*
+0 0 * * * find /Users/mohammadothman/log_analysis_project/logs -type f -size +10M -delete > /Users/mohammadothman/log_analysis_project/cron_logs/filter_file_size.log 2>&1

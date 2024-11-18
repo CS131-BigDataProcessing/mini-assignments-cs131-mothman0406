@@ -1,0 +1,16 @@
+1. Daily File Cleanup Using Cron:
+Command: 0 2 * * * rm -rf 
+/Users/mohammadothman/Documents/Github/mini-assignments-cs131-mothman0406/temp/*
+Description: Deletes all files from the specified temporary directory 
+every day at 2:00 AM.
+
+2. Weekly System Backup with Cron:
+Command: 0 3 * * 0 
+/Users/mohammadothman/Documents/Github/mini-assignments-cs131-mothman0406/A9_cron/backup_script.sh
+Description: Executes a script that compresses and backs up the home 
+directory every Sunday at 3:00 AM.
+
+3. Disk Usage Report Using Cron:
+Command: 30 8 * * * df -h | mail -s "Disk Usage Report" user@example.com
+Description: Emails a daily disk usage report at 8:30 AM using the output 
+of the `df -h` command.
