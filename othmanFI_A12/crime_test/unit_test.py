@@ -1,10 +1,9 @@
 # unit_test.py
 import unittest
-from validate_functions import validate_sex, validate_age
-from stats_function import calculate_mean, calculate_median
-
+from crime_test.validate_functions import validate_sex, validate_age
+from crime_test.stats_function import calculate_mean, calculate_median
 class TestCrimeFunctions(unittest.TestCase):
-    
+   
     # Test validate_sex function
     def test_validate_sex_valid(self):
         self.assertTrue(validate_sex('M'))
